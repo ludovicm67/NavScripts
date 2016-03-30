@@ -4,7 +4,7 @@
 // @version      1
 // @description  Let's allow AdBlocker on LeFigaro again !
 // @author       @ludovicm67
-// @match        *.lefigaro.fr/**
+// @include      *.lefigaro.fr/**
 // @grant        none
 // ==/UserScript==
 /* jshint -W097 */
