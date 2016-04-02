@@ -7,7 +7,6 @@
 // @include      *.lefigaro.fr/**
 // @grant        none
 // ==/UserScript==
-/* jshint -W097 */
 'use strict';
 
 // We remove all the warnings about the fact that we are using an AdBlocker
@@ -21,4 +20,10 @@ var blurredText = document.querySelectorAll('.fig-article-body');
 for(var i=0; i<blurredText.length; i++) {
     blurredText[i].style.color = 'initial';
     blurredText[i].style.textShadow = 'none';
+}
+
+// We remove all the zone for ads
+var adsZone = document.querySelectorAll('.fig-adgps, .mod.breve.pave-bg');
+for(var i=0; i<adsZone.length; i++) {
+    adsZone[i].style.display = 'none';
 }
