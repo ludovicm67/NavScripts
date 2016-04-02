@@ -23,7 +23,7 @@ for(var i=0; i<blurredText.length; i++) {
 }
 
 // We remove all the zone for ads
-var adsZone = document.querySelectorAll('.fig-adgps, .mod.breve.pave-bg, .pub-carrousel-mini, .pub-zoom-react');
+var adsZone = document.querySelectorAll('.fig-adgps, .mod.breve.pave-bg, .pub-carrousel-mini, .pub-zoom-react, .fig-gps-placeholder');
 for(var i=0; i<adsZone.length; i++) {
     adsZone[i].style.display = 'none';
 }
