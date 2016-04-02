@@ -9,7 +9,7 @@
 // ==/UserScript==
 'use strict';
 
-// We remove all the warnings about the fact that we are using an AdBlocker
+// We remove warnings about the fact that we are using an AdBlocker
 var warningMessages = document.querySelectorAll('a[href*="comment-desactiver-facilement-votre-bloqueur-de-publicites-sur-le-figarofr.php"]');
 for(var i=0; i<warningMessages.length; i++) {
     warningMessages[i].style.display = 'none';
