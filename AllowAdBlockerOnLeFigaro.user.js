@@ -23,7 +23,7 @@ for(var i=0; i<blurredText.length; i++) {
 }
 
 // We remove most of zones for ads
-var adsZone = document.querySelectorAll('.fig-adgps, .pave-bg, .pub-carrousel-mini, .pub-zoom-react, .fig-gps-placeholder, .pub-zoom, .s24-shopping, .s24-art-pub-top, .s24-pub, .fig-promo, .mad__shoppingbox, .mad__market__droit.mad__market__droit__article, .pane-bloc-ad, .pub-icone, .fig-ad, .OUTBRAIN');
+var adsZone = document.querySelectorAll('.fig-adgps, .pave-bg, .pub-carrousel-mini, .pub-zoom-react, .fig-gps-placeholder, .pub-zoom, .s24-shopping, .s24-art-pub-top, .s24-pub, .fig-promo, .mad__shoppingbox, .mad__market__droit.mad__market__droit__article, .pane-bloc-ad, .pub-icone, .fig-ad, .OUTBRAIN, .tvm-ad');
 for(var i=0; i<adsZone.length; i++) {
     adsZone[i].style.display = 'none';
 }
