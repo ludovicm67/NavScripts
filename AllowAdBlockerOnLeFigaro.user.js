@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AllowAdBlockerOnLeFigaro
 // @namespace    @ludovicm67
-// @version      1.0.6
+// @version      1.0.7
 // @description  Let's allow AdBlocker on LeFigaro again !
 // @author       @ludovicm67
 // @include      *.lefigaro.fr/**
