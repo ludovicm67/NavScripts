@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AllowAdBlockerOnLeFigaro
 // @namespace    @ludovicm67
-// @version      1.0.9
+// @version      1.0.10
 // @description  Let's allow AdBlocker on LeFigaro again !
 // @author       @ludovicm67
 // @include      *.lefigaro.fr/**
@@ -20,6 +20,7 @@ var blurredText = document.querySelectorAll('.fig-article-body');
 for(var i=0; i<blurredText.length; i++) {
     blurredText[i].style.color = 'initial';
     blurredText[i].style.textShadow = 'none';
+    blurredText[i].style.textAlign = 'justify';
 }
 
 // We remove most of zones for ads
