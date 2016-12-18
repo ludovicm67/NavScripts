@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         AllowAdBlockerOnLePoint
+// @name         LePoint
 // @namespace    @ludovicm67
-// @version      1.0.2
+// @version      1.0.3
 // @description  Let's allow AdBlocker on LePoint !
 // @author       @ludovicm67
 // @include      *.lepoint.fr/**
@@ -17,7 +17,7 @@
         var noAdsZone = document.querySelector('a[href*="/html/infos"]').parentNode;
         noAdsZone.parentNode.removeChild(noAdsZone);
     }
-    
+
     // We remove most of zones for ads, ...
     var adsZone = document.querySelectorAll('.footer-market, .button-type, .bg-yellow');
     for(var i=0; i<adsZone.length; i++) {
