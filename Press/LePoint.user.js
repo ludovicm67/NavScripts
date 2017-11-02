@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LePoint
 // @namespace    @ludovicm67
-// @version      1.0.6
+// @version      1.0.7
 // @description  Let's allow AdBlocker on LePoint !
 // @author       @ludovicm67
 // @include      *.lepoint.fr/**
@@ -11,6 +11,11 @@
 (function() {
 
     'use strict';
+    
+    // We remove limitations
+    localStorage.removeItem('dwDef');
+    localStorage.removeItem('lpu');
+    localStorage.removeItem('lpa');
 
     // We remove warnings about the fact that we are using an AdBlocker
     if (document.querySelector('a[href*="/html/infos"]')) {
