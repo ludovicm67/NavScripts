@@ -10,8 +10,10 @@ To begin, you will need to download a browser extension :
 
 After that, you only need to navigate throught all the differents folder of this repository to choose which user script you need. So just click on it, and click on the `Raw` button for installing it !
 
-If you want also my personnal filters for my Adblocker, just import the following line :
-`https://raw.githubusercontent.com/ludovicm67/NavScripts/master/AdBLocker_custom_rules.txt`
-to your AdBlocker's filters list.
+If you want also my personnal filters for my Adblocker, just import the following line to your AdBlocker's filters list:
+
+```txt
+https://raw.githubusercontent.com/ludovicm67/NavScripts/master/AdBLocker_custom_rules.txt
+```
 
 That's it ! :wink:
