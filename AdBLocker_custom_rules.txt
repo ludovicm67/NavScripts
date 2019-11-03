@@ -1,2 +1,4 @@
 ! 08/09/2019 https://outlook.live.com
 outlook.live.com##div:has(> div > div > span:-abp-contains(Il semble que vous utilisiez un bloqueur de publicité. Pour optimiser l’espace dans votre boîte de réception, inscrivez-vous))
+outlook.live.com##div:has(> div > div > span:-abp-contains(It looks like you're using an ad blocker. To maximize the space in your inbox, sign up))
+outlook.live.com##div:has(> div > div > span:-abp-contains(Sie scheinen einen Anzeigenblocker zu verwenden. Um den Platz in Ihrem Posteingang zu maximieren, registrieren Sie sich))
